@@ -1,0 +1,31 @@
+/* places.css — joylar ro'yxati uchun */
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.place-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.place-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.place-card h3 {
+  margin: 0.5rem 0;
+}
+.place-card p {
+  margin: 0 0 0.5rem 0;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+.place-card a {
+  color: var(--accent);
+  text-decoration: none;
+}
