@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Registon maydoni",
+    "location": "Samarqand",
+    "period": "XV-XVII asrlar",
+    "short_description": "Sharq me'morchiligining durdonasi hisoblangan uchta madrasa majmuasi.",
+    "full_description": "Registon maydoni Samarqandning yuragi hisoblanadi. Majmua Ulug‘bek madrasasi, Sherdor madrasasi va Tillakori madrasasidan tashkil topgan.",
+    "main_image": "assets/images/registan-main.jpg",
+    "gallery": ["assets/images/registan-1.jpg", "assets/images/registan-2.jpg"],
+    "category": "Me'morchilik"
+  },
+  {
+    "id": 2,
+    "name": "Ark qal'asi",
+    "location": "Buxoro",
+    "period": "V-XX asrlar",
+    "short_description": "Buxoro amirlarining qadimiy qarorgohi va mustahkam qal'asi.",
+    "full_description": "Ark — Buxorodagi eng qadimgi arxeologik yodgorlikdir. Bu ulkan qal'a ichida butun bir shahar joylashgan bo'lib, u yerda amir saroyi, zarbxona va masjidlar bo'lgan.",
+    "main_image": "assets/images/ark-main.jpg",
+    "gallery": ["assets/images/ark-1.jpg", "assets/images/ark-2.jpg"],
+    "category": "Qal'a"
+  },
+  {
+    "id": 3,
+    "name": "Ichan Qala",
+    "location": "Xiva",
+    "period": "XVIII-XIX asrlar",
+    "short_description": "Ochiq osmon ostidagi muzey-shahar.",
+    "full_description": "Ichan Qala Xiva shahrining ichki qismi bo'lib, baland devorlar bilan o'ralgan. Bu yerda 50 dan ortiq tarixiy obidalar saqlanib qolgan.",
+    "main_image": "assets/images/ichan-main.jpg",
+    "gallery": ["assets/images/ichan-1.jpg", "assets/images/ichan-2.jpg"],
+    "category": "Muzey-shahar"
+  },
+  {
+    "id": 4,
+    "name": "Fayoztepa majmuasi",
+    "location": "Termiz",
+    "period": "I-III asrlar",
+    "short_description": "Qadimgi Kushonlar davriga oid Budda ibodatxonasi va monastiri.",
+    "full_description": "Fayoztepa — Termiz shahri yaqinidagi qadimiy yodgorlik. Bu yerda qadimgi devoriy rasmlar va haykallar topilgan bo'lib, u Buyuk Ipak yo'lidagi madaniyatlar chorrahasini anglatadi.",
+    "main_image": "assets/images/fayoztepa-main.jpg",
+    "gallery": [
+      "assets/images/fayoztepa-1.jpg",
+      "assets/images/fayoztepa-2.jpg"
+    ],
+    "category": "Arxeologiya"
+  }
+]
