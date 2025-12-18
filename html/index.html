@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../css/output.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    <script
+      src="https://kit.fontawesome.com/88939fc040.js"
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    ></script>
     <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
@@ -22,15 +19,17 @@
         </div>
         <ul class="nav-link">
           <li><a href="#">Bosh sahifa</a></li>
-          <li><a href="#about">Biz haqimizda</a></li>
           <li><a href="#places">Joylar</a></li>
+          <li><a href="#about">Biz haqimizda</a></li>
+
           <li><a href="#call">Aloqa</a></li>
         </ul>
         <div class="dropdown">
-          <select name="" id="" class="">
-            <option value="UZ"><i class="fa-solid fa-globe"></i>UZ</option>
-            <option value="ENG"><i class="fa-solid fa-globe"></i>ENG</option>
-            <option value="RUS"><i class="fa-solid fa-globe"></i>RUS</option>
+          <select name="language" id="language-select">
+            <option value=""><i class="fas fa-globe"></i></option>
+            <option value="UZ">UZ</option>
+            <option value="ENG">ENG</option>
+            <option value="RUS">RUS</option>
           </select>
         </div>
       </nav>
@@ -44,7 +43,7 @@
             sarguzashtlarga sho'ng'ing.
           </p>
           <div class="explore-button">
-            <button>Joylarni ko'rish</button>
+            <button onclick="scrollToPlaces()">Joylarni ko'rish</button>
           </div>
         </div>
       </section>
@@ -89,21 +88,142 @@
         <button class="see-cards">To'liq joylarni ko'rish</button>
       </section>
 
-      <section class="about" id="about"></section>
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-top">
+            <div class="about-image">
+              <img src="tarixiy-rasm.jpg" alt="Biz haqimizda" />
+            </div>
+            <div class="about-text">
+              <h2>Biz haqimizda</h2>
+              <p>
+                "Historical Places" — bu insoniyat sivilizatsiyasi yaratgan eng
+                buyuk meroslarni raqamlashtirish va keng ommaga yetkazishga
+                bag‘ishlangan platforma. Bizning maqsadimiz o‘tmish va kelajak
+                o‘rtasida raqamli ko‘prik qurishdir.
+              </p>
+              <p>
+                Biz taqdim etayotgan har bir fakt akademik manbalarga asoslangan
+                bo‘lib, sizga dunyoning eng sirli go‘shalariga virtual sayohat
+                qilish imkonini beradi.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-gallery">
+            <div class="gallery-item">
+              <img src="rasm1.jpg" alt="Obida 1" />
+              <h3>Qadimiy shaharlar</h3>
+            </div>
+            <div class="gallery-item">
+              <img src="rasm2.jpg" alt="Obida 2" />
+              <h3>Me'moriy yodgorliklar</h3>
+            </div>
+            <div class="gallery-item">
+              <img src="rasm3.jpg" alt="Obida 3" />
+              <h3>Sirli qal'alar</h3>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer-wrapper">
-      <section class="call" id="call">
-        <ul class="footer-links">
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
-      </section>
-      <p class="footer-text">
-        &copy;2024 Sayohat Vebsayti. Barcha huquqlar himoyalangan.
-      </p>
-    </footer>
+    <section id="call">
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Sayyohlar uchun</h3>
+            <ul>
+              <li><a href="#">Ko‘p beriladigan savollar</a></li>
+              <li><a href="#">ichki-turizm</a></li>
+              <li><a href="#">ziyorat-turizm-obyektlari-reestri</a></li>
+              <li>
+                <a href="#"
+                  >Gid-ekskursiya yetakchilari Yagona elektron reyestri</a
+                >
+              </li>
+              <li><a href="#">Tadbirlar taqvimi </a></li>
+              <li><a href="#">Onlayn kutubxona</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Agentliklarga</h3>
+            <ul>
+              <li><a href="#">Xalqaro ko'rgazmalar</a></li>
+              <li><a href="#">Turlarni targ'ib qilish</a></li>
+              <li><a href="#">Turizm sohasidagi qonunlar</a></li>
+              <li><a href="#">Turistik yo'nalishlar</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Ma'lumotlar</h3>
+            <ul>
+              <li><a href="#">Biz haqimizda</a></li>
+              <li><a href="#">Sayyohlarning kelishi</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>CMI</h3>
+            <ul>
+              <li><a href="#">Novosti turizma</a></li>
+              <li><a href="#">Novosti Uzbekistana</a></li>
+              <li><a href="#">O nas pishut</a></li>
+              <li><a href="#">Reytingi</a></li>
+              <li><a href="#">Nagradi</a></li>
+              <li><a href="#">TMTY</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column contacts">
+            <h3>Kontakti</h3>
+            <p class="phone">+998 12 345 67</p>
+            <p class="sub-text">Vremya raboti: 9:00-18:00, Pn-Pt</p>
+            <p class="email">info@nationalprcentre.com</p>
+            <p class="sub-text">Po lyubim voprosam</p>
+
+            <div class="address">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>ul. Oybek 18, Tashkent 100015, Uzbekistan</span>
+            </div>
+
+            <p class="safe-tourism">
+              Ediniy Call-centr bezopasnogo turizma - 1173
+            </p>
+
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-telegram-plane"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+            </div>
+
+            <div class="orange-button">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 barcha huquqlar himoyalangan</p>
+        </div>
+      </footer>
+    </section>
+
+    <script>
+      function scrollToPlaces() {
+        const placesSection = document.getElementById("places");
+
+        if (placesSection) {
+          placesSection.scrollIntoView({
+            behavior: "auto",
+          });
+        }
+      }
+    </script>
   </body>
 </html>
