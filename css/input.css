@@ -1,3 +1,4 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@source "../node_modules/@acmecorp/ui-lib";
