@@ -1,0 +1,14 @@
+# Kutubxonalar
+node_modules/
+
+# Build natijalari
+dist/
+build/
+
+# Muhit o'zgaruvchilari
+.env
+.env.local
+
+# Tizim fayllari
+.DS_Store
+Thumbs.db

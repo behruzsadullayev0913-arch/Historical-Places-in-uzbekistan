@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta char.card-buet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/output.css" />
-    <script
-      src="https://kit.fontawesome.com/88939fc040.js"
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../css/main.css" />
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="header-wrapper">
@@ -48,53 +52,22 @@
       </section>
 
       <section class="places" id="places">
-        <h2 class="section-title">Joylar</h2>
-        <div class="place-cards">
-          <div class="card">
-            <div class="card-image"></div>
-            <div class="card-content">
-              <h3 class="card-title">Joy nomi</h3>
-              <p class="card-description">
-                Bu joy haqida qisqacha ma'lumot beruvchi matn.
-              </p>
-            </div>
-            <button class="card-button">To'liq ma'lumot</button>
-          </div>
-          <div class="card">
-            <div class="card-image">
-              <img src="" alt="" />
-            </div>
-            <div class="card-content">
-              <h3 class="card-title">Joy nomi</h3>
-              <p class="card-description">
-                Bu joy haqida qisqacha ma'lumot beruvchi matn.
-              </p>
-            </div>
-            <button class="card-button">To'liq ma'lumot</button>
-          </div>
-          <div class="card">
-            <div class="card-image">
-              <img src="" alt="" />
-            </div>
+        <h2 class="section-title">Eng mashhur joylar</h2>
 
-            <div class="card-content">
-              <h3 class="card-title">Joy nomi</h3>
-              <p class="card-description">
-                Bu joy haqida qisqacha ma'lumot beruvchi matn.
-              </p>
-            </div>
-            <button class="card-button">To'liq ma'lumot</button>
-          </div>
+        <div class="place-cards" id="featured-places"></div>
+
+        <div style="text-align: center; margin-top: 40px">
+          <a href="places.html" class="view-all-link"
+            >Barcha joylarni ko'rish →</a
+          >
         </div>
-
-        <button class="see-cards">To'liq joylarni ko'rish</button>
       </section>
 
       <section class="about-section" id="about">
         <div class="container">
           <div class="about-top">
             <div class="about-image">
-              <img src="../assets/images/Registon.jpg" alt="Biz haqimizda" />
+              <img src="./assets/images/Registon.jpg" alt="Biz haqimizda" />
             </div>
             <div class="about-text">
               <h2>Biz haqimizda</h2>
@@ -196,21 +169,10 @@
         </div>
 
         <div class="footer-bottom">
-          <p>&copy; 2025 barcha huquqlar himoyalangan</p>
+          <p>&copy; 2026 barcha huquqlar himoyalangan</p>
         </div>
       </footer>
     </section>
-
-    <script>
-      function scrollToPlaces() {
-        const placesSection = document.getElementById("places");
-
-        if (placesSection) {
-          placesSection.scrollIntoView({
-            behavior: "auto",
-          });
-        }
-      }
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>

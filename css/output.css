@@ -588,4 +588,24 @@ video {
   }
 }
 
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.border {
+  border-width: 1px;
+}
+
 @source "../node_modules/@acmecorp/ui-lib";
