@@ -6,7 +6,7 @@
     "period": "XV-XVII asrlar",
     "short_description": "Sharq me'morchiligining durdonasi.",
     "full_description": "Registon maydoni Samarqandning yuragi hisoblanadi. Majmua Ulug‘bek madrasasi, Sherdor madrasasi va Tillakori madrasasidan tashkil topgan.",
-    "main_image": "../assets/images/Registon.png",
+    "main_image": "../assets/images/Registon(2).png",
     "gallery": [
       "../assets/images/registon-galleya.jpg",
       "../assets/images/registon-gallareya(2).jpg"
@@ -21,7 +21,7 @@
     "period": "V-XX asrlar",
     "short_description": "Buxoro amirlarining qadimiy qarorgohi.",
     "full_description": "Ark — Buxorodagi eng qadimgi arxeologik yodgorlikdir. Bu ulkan qal'a ichida butun bir shahar joylashgan bo'lib, u yerda amir saroyi, zarbxona va masjidlar bo'lgan.",
-    "main_image": "assets/images/ark-main.jpg",
+    "main_image": "../assets/images/",
     "gallery": ["assets/images/ark-1.jpg", "assets/images/ark-2.jpg"],
     "category": "Qal'a"
   },
