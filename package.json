@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch",
     "build:css": "npx tailwindcss -i ./css/input.css -o ./css/output.css",
-    "build": "npm run build:css"
+    "build": "tailwindcss build --output public"
   },
   "repository": {
     "type": "git",
