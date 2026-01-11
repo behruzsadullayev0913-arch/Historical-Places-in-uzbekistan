@@ -8,10 +8,12 @@ async function loadPlaceDetail() {
     const response = await fetch("./data/places.json");
     const data = await response.json();
 
+    // ID bo'yicha JSONdan ma'lumotni topamiz
     const place = data.find((p) => p.id == placeId);
 
     if (place) {
       renderPage(place);
+      setupLearnMore(place); // Wikipedia tugmasini shu yerda ishlatamiz
     } else {
       document.body.innerHTML =
         "<h1>Ma'lumot topilmadi</h1><a href='index.html'>Orqaga</a>";
@@ -33,9 +35,8 @@ function renderPage(place) {
   document.getElementById("full-desc").innerText = place.full_description;
   document.getElementById("loc").innerText = place.location;
   document.getElementById("period").innerText = place.period;
-  document.getElementById("cat").innerText = place.category;
+  document.getElementById("type").innerText = place.category;
 
-  // 3. Galereya qismini yaratish
   if (place.gallery && place.gallery.length > 0) {
     const galleryHTML = `
             <div class="gallery-section">
@@ -58,7 +59,7 @@ function renderPage(place) {
       .insertAdjacentHTML("beforeend", galleryHTML);
   }
 
-  // 4. Xaritani chiqarish (Ixcham hajmda)
+  // Xaritani chiqarish
   const mapBox = document.getElementById("map-box");
   if (mapBox) {
     const query = encodeURIComponent(`${place.name}, ${place.location}`);
@@ -68,6 +69,20 @@ function renderPage(place) {
             src="https://maps.google.com/maps?q=${query}&t=&z=14&ie=UTF8&iwloc=&output=embed">
             </iframe>
         `;
+  }
+}
+
+// Tugma bosilishini boshqaruvchi yangi funksiya
+function setupLearnMore(place) {
+  const learnBtn = document.getElementById("lear-more");
+  if (learnBtn) {
+    learnBtn.addEventListener("click", (e) => {
+      e.preventDefault(); // Sahifa sakrab ketmasligi uchun
+      const cleanKey = place.key.replace(/['’‘`ʻ]/g, "");
+      window.location.href = `https://uz.wikipedia.org/wiki/${encodeURIComponent(
+        cleanKey
+      )}`;
+    });
   }
 }
 

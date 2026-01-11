@@ -4,14 +4,16 @@
     "name": "Registon maydoni",
     "location": "Samarqand",
     "period": "XV-XVII asrlar",
+    "region": "Samarqand",
     "short_description": "Sharq me'morchiligining durdonasi.",
-    "full_description": "Registon — Samarqandning yuragi va Sharq gavhari. Fors tilidan 'qumli joy' deb tarjima qilinuvchi ushbu maydon, Amir Temur davrida shahar markazi va savdo chorrahasi sifatida shakllangan. Majmua uchta buyuk madrasadan iborat: 1. Ulug‘bek madrasasi (1417–1420) — Mirzo Ulug‘bek tomonidan qurdirilgan ilm-fan o‘chog‘i bo‘lib, astronomik timsollar bilan bezatilgan. 2. Sherdor madrasasi (1619–1636) — Yalangto‘sh Bahodir buyrug‘i bilan qurilgan, peshtog‘ida afsonaviy sher va quyosh tasviri tushirilgan obida. 3. Tillakori madrasasi (1646–1660) — ham madrasa, ham jome masjidi vazifasini o‘tagan, ichki bezaklarida oltin suvidan keng foydalanilgan muhtasham bino. Bugungi kunda Registon UNESCO Butunjahon merosi ro‘yxatiga kiritilgan va 'Sharq taronalari' festivalining doimiy o‘tkazilish joyi hisoblanadi.",
+    "full_description": "Registon — Samarqandning yuragi va Sharq gavhari. Fors tilidan 'qumli joy' deb tarjima qilinuvchi ushbu maydon, Amir Temur davrida shahar markazi qurilgan.",
     "main_image": "../assets/images/Registon(2).png",
     "gallery": [
       "../assets/images/registon-galleya.jpg",
       "../assets/images/registon-gallareya(2).jpg"
     ],
-    "category": "Me'morchilik"
+    "category": "Me'morchilik",
+    "key": "Registon_maydoni"
   },
 
   {
@@ -19,11 +21,16 @@
     "name": "Ark qal'asi",
     "location": "Buxoro",
     "period": "V-XX asrlar",
+    "region": "Buxoro",
     "short_description": "Buxoro amirlarining qadimiy qarorgohi.",
     "full_description": "Ark — Buxorodagi eng qadimgi arxeologik yodgorlikdir. Bu ulkan qal'a ichida butun bir shahar joylashgan bo'lib, u yerda amir saroyi, zarbxona va masjidlar bo'lgan.",
-    "main_image": "../assets/images/",
-    "gallery": ["assets/images/ark-1.jpg", "assets/images/ark-2.jpg"],
-    "category": "Qal'a"
+    "main_image": "../assets/images/ark qalasi.jpg",
+    "gallery": [
+      "../assets/images/ark qalasi galareya (1).jpg",
+      "../assets/images/ark qalasi galareya (2).jpg"
+    ],
+    "category": "Qal'a",
+    "key": "Buxoroning_Ark_qalʼasi"
   },
 
   {
@@ -31,11 +38,16 @@
     "name": "Ichan Qala",
     "location": "Xiva",
     "period": "XVIII-XIX asrlar",
+    "region": "Xorazm",
     "short_description": "Ochiq osmon ostidagi muzey-shahar.",
     "full_description": "Ichan Qala Xiva shahrining ichki qismi bo'lib, baland devorlar bilan o'ralgan. Bu yerda 50 dan ortiq tarixiy obidalar saqlanib qolgan.",
-    "main_image": "assets/images/ichan-main.jpg",
-    "gallery": ["assets/images/ichan-1.jpg", "assets/images/ichan-2.jpg"],
-    "category": "Muzey-shahar"
+    "main_image": "../assets/images/Ichan qala.jpg",
+    "gallery": [
+      "../assets/images/ichan qala galareya (1).jpg",
+      "../assets/images/ichan qala galareya (2).jpg"
+    ],
+    "category": "Muzey-shahar",
+    "key": "Ichan_qalʼa"
   },
 
   {
@@ -43,13 +55,15 @@
     "name": "Fayoztepa majmuasi",
     "location": "Termiz",
     "period": "I-III asrlar",
+    "region": "Surxondaryo",
     "short_description": "Qadimgi Kushonlar davriga oid Budda ibodatxonasi va monastiri.",
     "full_description": "Fayoztepa — Termiz shahri yaqinidagi qadimiy yodgorlik. Bu yerda qadimgi devoriy rasmlar va haykallar topilgan bo'lib, u Buyuk Ipak yo'lidagi madaniyatlar chorrahasini anglatadi.",
-    "main_image": "assets/images/fayoztepa-main.jpg",
+    "main_image": "../assets/images/fayoztape.jpg",
     "gallery": [
-      "assets/images/fayoztepa-1.jpg",
-      "assets/images/fayoztepa-2.jpg"
+      "../assets/images/fayoztepa galareya (1).jpg",
+      "../assets/images/fayoztepa galareya (2).jpg"
     ],
-    "category": "Arxeologiya"
+    "category": "Arxeologiya",
+    "key": "Fayoztepa"
   }
 ]

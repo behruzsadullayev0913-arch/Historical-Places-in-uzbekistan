@@ -19,24 +19,31 @@
     <header class="header-wrapper">
       <nav class="nav-bar">
         <div class="logo">
-          <a href="#"
-            ><i class="fa-solid fa-map-location-dot"></i> Historical Places</a
+          <ah href="#"
+            ><i class="fa-solid fa-map-location-dot"></i> Historical Places</ah
           >
         </div>
-        <ul class="nav-link">
+
+        <ul class="nav-link" id="nav-list">
           <li><a href="#">Bosh sahifa</a></li>
           <li><a href="#places">Joylar</a></li>
           <li><a href="#about">Biz haqimizda</a></li>
-
           <li><a href="#call">Aloqa</a></li>
         </ul>
-        <div class="dropdown">
+
+        <div class="lang-wrapper">
           <select name="language" id="language-select">
             <option value="UZ">UZ</option>
             <option value="ENG">ENG</option>
             <option value="RUS">RUS</option>
           </select>
         </div>
+
+        <button class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </nav>
     </header>
     <main class="main-wrapper">
@@ -61,9 +68,7 @@
         <div class="place-cards" id="featured-places"></div>
 
         <div style="text-align: center; margin-top: 40px">
-          <a
-            href="places.html"
-            class="view-all-link bg-blue-600 text-white px-4 py-2"
+          <a href="places.html" class="view-all-link text-white px-4 py-2"
             >Barcha joylarni ko'rish →</a
           >
         </div>

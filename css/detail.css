@@ -92,11 +92,66 @@
   transform: scale(1.05);
 }
 
+.learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d5a27;
+  padding: 15px 30px;
+  border-radius: 8px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.learn-more:hover {
+  background-color: #3e7a36;
+}
+
+.learn-more a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
-  .info-grid {
-    grid-template-columns: 1fr;
+  .detail-wrapper {
+    margin: 20px auto;
   }
+
+  .info-grid {
+    grid-template-columns: 1fr; /* Ustunlar bittaga aylanadi */
+    gap: 20px;
+  }
+
   .main-title {
     font-size: 1.8rem;
+  }
+
+  .sidebar {
+    order: -1; /* Ma'lumotlar bloki xaritadan tepaga chiqishi mumkin */
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr); /* Galereya 2 ustun bo'ladi */
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .detail-wrapper {
+    max-width: 90%; /* Ekran chetlaridan masofa qoldiramiz */
+  }
+
+  .info-grid {
+    grid-template-columns: 1.5fr 1fr; /* Yon panelni biroz kengaytiramiz */
+    gap: 20px;
+  }
+
+  .main-title {
+    font-size: 2rem;
   }
 }
