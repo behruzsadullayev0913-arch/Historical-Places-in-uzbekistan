@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Registon maydoni",
+    "location": "Samarqand",
+    "period": "XV-XVII asrlar",
+    "region": "Samarqand",
+    "short_description": "Sharq me'morchiligining durdonasi.",
+    "full_description": "Registon — Samarqandning yuragi va Sharq gavhari. Fors tilidan 'qumli joy' deb tarjima qilinuvchi ushbu maydon, Amir Temur davrida shahar markazi qurilgan.",
+    "main_image": "../assets/images/Registon(2).png",
+    "gallery": [
+      "../assets/images/registon-galleya.jpg",
+      "../assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "Registon_maydoni"
+  },
+
+  {
+    "id": 3,
+    "name": "Ichan Qala",
+    "location": "Xiva",
+    "period": "XVIII-XIX asrlar",
+    "region": "Xorazm",
+    "short_description": "Ochiq osmon ostidagi muzey-shahar.",
+    "full_description": "Ichan Qala Xiva shahrining ichki qismi bo'lib, baland devorlar bilan o'ralgan. Bu yerda 50 dan ortiq tarixiy obidalar saqlanib qolgan.",
+    "main_image": "../assets/images/Ichan qala.jpg",
+    "gallery": [
+      "../assets/images/ichan qala galareya (1).jpg",
+      "../assets/images/ichan qala galareya (2).jpg"
+    ],
+    "category": "Muzey-shahar",
+    "key": "Ichan_qalʼa"
+  },
+
+  {
+    "id": 2,
+    "name": "Ark qal'asi",
+    "location": "Buxoro",
+    "period": "V-XX asrlar",
+    "region": "Buxoro",
+    "short_description": "Buxoro amirlarining qadimiy qarorgohi.",
+    "full_description": "Ark — Buxorodagi eng qadimgi arxeologik yodgorlikdir. Bu ulkan qal'a ichida butun bir shahar joylashgan bo'lib, u yerda amir saroyi, zarbxona va masjidlar bo'lgan.",
+    "main_image": "../assets/images/ark qalasi.jpg",
+    "gallery": [
+      "../assets/images/ark qalasi galareya (1).jpg",
+      "../assets/images/ark qalasi galareya (2).jpg"
+    ],
+    "category": "Qal'a",
+    "key": "Buxoroning_Ark_qalʼasi"
+  },
+
+  {
+    "id": 4,
+    "name": "Fayoztepa majmuasi",
+    "location": "Termiz",
+    "period": "I-III asrlar",
+    "region": "Surxondaryo",
+    "short_description": "Qadimgi Kushonlar davriga oid Budda ibodatxonasi va monastiri.",
+    "full_description": "Fayoztepa — Termiz shahri yaqinidagi qadimiy yodgorlik. Bu yerda qadimgi devoriy rasmlar va haykallar topilgan bo'lib, u Buyuk Ipak yo'lidagi madaniyatlar chorrahasini anglatadi.",
+    "main_image": "../assets/images/fayoztape.jpg",
+    "gallery": [
+      "../assets/images/fayoztepa galareya (1).jpg",
+      "../assets/images/fayoztepa galareya (2).jpg"
+    ],
+    "category": "Arxeologiya",
+    "key": "Fayoztepa"
+  }
+]
