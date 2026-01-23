@@ -1,14 +1,23 @@
+# Loglar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Kutubxonalar
 node_modules/
-
-# Build natijalari
 dist/
-build/
+dist-ssr/
+*.local
 
-# Muhit o'zgaruvchilari
+# Editor sozlamalari
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Muhit o'zgaruvchilari (Maxfiy)
 .env
 .env.local
-
-# Tizim fayllari
-.DS_Store
-Thumbs.db
+.env.development.local
+.env.test.local
+.env.production.local
