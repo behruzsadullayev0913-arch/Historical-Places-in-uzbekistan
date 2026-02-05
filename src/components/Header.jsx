@@ -33,13 +33,12 @@ const Header = () => {
             onClick={() => window.scrollTo(0, 0)}
           >
             <img
-              src="/assets/images/logo-uzbekistan.png"
+              src="/assets/images/logo-sximo_1.png"
               alt="Uzbekistan Travel"
-              className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 transform group-hover:scale-105"
+              className="h-auto md:h-12 w-100 object-container transition-transform duration-300 transform group-hover:scale-105"
             />
           </Link>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <NavLink
               to="/"
@@ -69,8 +68,7 @@ const Header = () => {
             </a>
           </nav>
 
-          {/* Actions */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-4 ">
             <select
               className={`bg-transparent border ${scrolled ? "border-slate-300 text-slate-700" : "border-white/30 text-white"} rounded-md px-2 py-1 text-sm focus:outline-none focus:border-primary-500`}
             >
@@ -86,7 +84,6 @@ const Header = () => {
             </select>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden text-2xl focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -99,7 +96,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div
         className={`md:hidden absolute top-full left-0 w-full transition-all duration-300 ease-in-out transform ${isMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0 pointer-events-none"} ${scrolled ? "bg-white shadow-xl" : "bg-slate-900/60 backdrop-blur-xl border-t border-white/10"}`}
       >
@@ -185,5 +181,3 @@ const MobileLink = ({ to, children, onClick, isActive, scrolled }) => (
 );
 
 export default Header;
-
-// comment

@@ -24,7 +24,7 @@
     "region": "Xorazm",
     "short_description": "Ochiq osmon ostidagi muzey-shahar.",
     "full_description": "Ichan Qala Xiva shahrining ichki qismi bo'lib, baland devorlar bilan o'ralgan. Bu yerda 50 dan ortiq tarixiy obidalar saqlanib qolgan.",
-    "main_image": "../assets/images/Ichan qala.jpg",
+    "main_image": "../../public/assets/images/Ichan qala (2).jpg",
     "gallery": [
       "../assets/images/ichan qala galareya (1).jpg",
       "../assets/images/ichan qala galareya (2).jpg"
