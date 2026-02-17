@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+      <section id="hero" className="relative h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src="/assets/images/Registon.jpg"

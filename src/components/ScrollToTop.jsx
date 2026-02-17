@@ -14,7 +14,7 @@ export default function ScrollToTop() {
       if (element) {
         // Use a small timeout to ensure the element is rendered
         setTimeout(() => {
-          element.scrollIntoView({ behavior: "smooth" });
+          element.scrollIntoView({ behavior: "auto" });
         }, 100);
         return;
       }

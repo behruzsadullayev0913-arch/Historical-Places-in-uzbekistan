@@ -6,15 +6,41 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
   const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
+
+      if (location.pathname === "/") {
+        const sections = ["hero", "places", "about", "call"];
+        let currentSection = "";
+
+        for (const sectionId of sections) {
+          const element = document.getElementById(sectionId);
+          if (element) {
+            const rect = element.getBoundingClientRect();
+            // Check if the section is mostly in view (roughly middle of viewport)
+            if (rect.top <= 200 && rect.bottom >= 200) {
+              currentSection = sectionId === "hero" ? "" : `#${sectionId}`;
+              break;
+            }
+          }
+        }
+        setActiveSection(currentSection);
+      }
     };
+
     window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Initial check
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [location.pathname]);
+
+  const isCurrentActive = (hash) => {
+    if (location.pathname !== "/") return false;
+    return activeSection === hash;
+  };
 
   return (
     <header
@@ -25,7 +51,10 @@ const Header = () => {
           <Link
             to="/"
             className="flex items-center gap-2 group"
-            onClick={() => window.scrollTo(0, 0)}
+            onClick={() => {
+              localStorage.removeItem("activeSection");
+              window.scrollTo(0, 0);
+            }}
           >
             <img
               src="/assets/images/logo-sximo_1.png"
@@ -38,7 +67,7 @@ const Header = () => {
             <NavLink
               to="/"
               scrolled={scrolled}
-              isActive={location.pathname === "/" && location.hash === ""}
+              isActive={isCurrentActive("")}
               onClick={() => {
                 localStorage.removeItem("activeSection");
                 window.scrollTo(0, 0);
@@ -49,21 +78,21 @@ const Header = () => {
             <a
               href="/#places"
               onClick={() => localStorage.setItem("activeSection", "#places")}
-              className={`font-medium transition-colors hover:text-primary-600 ${location.hash === "#places" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
+              className={`font-medium transition-colors hover:text-primary-600 ${isCurrentActive("#places") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
             >
               Joylar
             </a>
             <a
               href="#about"
               onClick={() => localStorage.setItem("activeSection", "#about")}
-              className={`font-medium transition-colors hover:text-primary-600 ${location.hash === "#about" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
+              className={`font-medium transition-colors hover:text-primary-600 ${isCurrentActive("#about") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
             >
               Biz haqimizda
             </a>
             <a
               href="#call"
               onClick={() => localStorage.setItem("activeSection", "#call")}
-              className={`font-medium transition-colors hover:text-primary-600 ${location.hash === "#call" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
+              className={`font-medium transition-colors hover:text-primary-600 ${isCurrentActive("#call") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
             >
               Aloqa
             </a>
@@ -103,7 +132,7 @@ const Header = () => {
         <div className="px-4 py-6 space-y-4 flex flex-col items-center">
           <MobileLink
             to="/"
-            isActive={location.pathname === "/" && location.hash === ""}
+            isActive={isCurrentActive("")}
             scrolled={scrolled}
             onClick={() => {
               setIsMenuOpen(false);
@@ -115,7 +144,7 @@ const Header = () => {
           </MobileLink>
           <a
             href="/#places"
-            className={`${location.hash === "#places" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
+            className={`${isCurrentActive("#places") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
             onClick={() => {
               setIsMenuOpen(false);
               localStorage.setItem("activeSection", "#places");
@@ -125,7 +154,7 @@ const Header = () => {
           </a>
           <a
             href="#about"
-            className={`${location.hash === "#about" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
+            className={`${isCurrentActive("#about") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
             onClick={() => {
               setIsMenuOpen(false);
               localStorage.setItem("activeSection", "#about");
@@ -135,7 +164,7 @@ const Header = () => {
           </a>
           <a
             href="#call"
-            className={`${location.hash === "#call" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
+            className={`${isCurrentActive("#call") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
             onClick={() => {
               setIsMenuOpen(false);
               localStorage.setItem("activeSection", "#call");

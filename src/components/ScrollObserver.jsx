@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const ScrollObserver = ({ children, animation = 'animate-fade-in-up', className = '', threshold = 0.1, delay = 0 }) => {
+const ScrollObserver = ({ children, animation = '', className = '', threshold = 0.1, delay = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const domRef = useRef();
 
@@ -29,7 +29,7 @@ const ScrollObserver = ({ children, animation = 'animate-fade-in-up', className 
   return (
     <div
       ref={domRef}
-      className={`${className} transition-opacity duration-1000 ${isVisible ? `opacity-100 ${animation}` : 'opacity-0'}`}
+      className={`${className} ${isVisible ? animation : 'invisible'}`}
       style={{ animationDelay: `${delay}ms` }}
     >
       {children}
