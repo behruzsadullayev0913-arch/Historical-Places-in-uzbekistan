@@ -39,24 +39,30 @@ const Header = () => {
               to="/"
               scrolled={scrolled}
               isActive={location.pathname === "/" && location.hash === ""}
-              onClick={() => window.scrollTo(0, 0)}
+              onClick={() => {
+                localStorage.removeItem("activeSection");
+                window.scrollTo(0, 0);
+              }}
             >
               Bosh sahifa
             </NavLink>
             <a
               href="/#places"
+              onClick={() => localStorage.setItem("activeSection", "#places")}
               className={`font-medium transition-colors hover:text-primary-600 ${location.hash === "#places" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
             >
               Joylar
             </a>
             <a
               href="#about"
+              onClick={() => localStorage.setItem("activeSection", "#about")}
               className={`font-medium transition-colors hover:text-primary-600 ${location.hash === "#about" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
             >
               Biz haqimizda
             </a>
             <a
               href="#call"
+              onClick={() => localStorage.setItem("activeSection", "#call")}
               className={`font-medium transition-colors hover:text-primary-600 ${location.hash === "#call" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
             >
               Aloqa
@@ -101,6 +107,7 @@ const Header = () => {
             scrolled={scrolled}
             onClick={() => {
               setIsMenuOpen(false);
+              localStorage.removeItem("activeSection");
               window.scrollTo(0, 0);
             }}
           >
@@ -109,21 +116,30 @@ const Header = () => {
           <a
             href="/#places"
             className={`${location.hash === "#places" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
-            onClick={() => setIsMenuOpen(false)}
+            onClick={() => {
+              setIsMenuOpen(false);
+              localStorage.setItem("activeSection", "#places");
+            }}
           >
             Joylar
           </a>
           <a
             href="#about"
             className={`${location.hash === "#about" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
-            onClick={() => setIsMenuOpen(false)}
+            onClick={() => {
+              setIsMenuOpen(false);
+              localStorage.setItem("activeSection", "#about");
+            }}
           >
             Biz haqimizda
           </a>
           <a
             href="#call"
             className={`${location.hash === "#call" ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-100"} font-medium hover:text-primary-600 text-lg`}
-            onClick={() => setIsMenuOpen(false)}
+            onClick={() => {
+              setIsMenuOpen(false);
+              localStorage.setItem("activeSection", "#call");
+            }}
           >
             Aloqa
           </a>
