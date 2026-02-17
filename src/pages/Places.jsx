@@ -6,12 +6,11 @@ import { faSearch, faFilter } from "@fortawesome/free-solid-svg-icons";
 import ScrollObserver from "../components/ScrollObserver";
 
 const Places = () => {
-  const [places, setPlaces] = useState([]);
+  const [places] = useState(placesData);
   const [regionFilter, setRegionFilter] = useState("all");
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    setPlaces(placesData);
     window.scrollTo(0, 0);
   }, []);
 
@@ -31,7 +30,6 @@ const Places = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen pb-20">
-      {/* Header Banner */}
       <div className="bg-slate-900 py-16 px-4 shadow-lg mb-8 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20 bg-[url('/assets/images/Registon.jpg')] bg-cover bg-center"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-transparent"></div>
@@ -49,7 +47,6 @@ const Places = () => {
 
       <div className="max-w-7xl mx-auto px-4 -mt-10 relative z-20 mb-12">
         <div className="bg-white p-6 rounded-2xl shadow-xl flex flex-col md:flex-row items-center gap-6 border border-slate-100">
-          {/* Filter */}
           <div className="flex flex-col gap-2 w-full md:w-1/4">
             <label
               htmlFor="region-filter"
@@ -77,7 +74,6 @@ const Places = () => {
             </div>
           </div>
 
-          {/* Search */}
           <div className="flex flex-col gap-2 w-full md:w-3/4">
             <label
               htmlFor="search-input"

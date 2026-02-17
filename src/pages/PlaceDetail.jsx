@@ -12,12 +12,10 @@ import placesData from "../data/places.json";
 
 const PlaceDetail = () => {
   const { id } = useParams();
-  const [place, setPlace] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
+  const place = placesData.find((p) => p.id == id);
 
   useEffect(() => {
-    const foundPlace = placesData.find((p) => p.id == id);
-    setPlace(foundPlace);
     window.scrollTo(0, 0);
   }, [id]);
 
@@ -42,7 +40,6 @@ const PlaceDetail = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen pb-20">
-      {/* Banner Image */}
       <div className="relative h-[50vh] w-full overflow-hidden">
         <img
           src={place.main_image}
@@ -69,7 +66,6 @@ const PlaceDetail = () => {
 
       <main className="max-w-7xl mx-auto px-4 -mt-8 relative z-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Content */}
           <div className="lg:col-span-2 space-y-8 animate-fade-in-up">
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
               <h2 className="text-2xl font-bold text-slate-800 mb-6 font-serif border-b border-slate-100 pb-4">
@@ -80,7 +76,6 @@ const PlaceDetail = () => {
               </p>
             </div>
 
-            {/* Gallery */}
             {place.gallery && place.gallery.length > 0 && (
               <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-100">
                 <h3 className="text-2xl font-bold text-slate-800 mb-6 font-serif">
@@ -106,9 +101,7 @@ const PlaceDetail = () => {
             )}
           </div>
 
-          {/* Sidebar */}
           <div className="lg:col-span-1 space-y-6 animate-fade-in-up animate-delay-200">
-            {/* Meta Info Card */}
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 sticky top-24">
               <h3 className="text-lg font-bold text-slate-800 mb-4 uppercase tracking-wider text-xs">
                 Ma'lumotlar
@@ -182,7 +175,6 @@ const PlaceDetail = () => {
         </div>
       </main>
 
-      {/* Image Modal */}
       {selectedImage && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 p-4"
