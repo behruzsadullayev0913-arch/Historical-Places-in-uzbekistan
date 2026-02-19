@@ -21,7 +21,6 @@ const Header = () => {
           const element = document.getElementById(sectionId);
           if (element) {
             const rect = element.getBoundingClientRect();
-            // Check if the section is mostly in view (roughly middle of viewport)
             if (rect.top <= 200 && rect.bottom >= 200) {
               currentSection = sectionId === "hero" ? "" : `#${sectionId}`;
               break;
@@ -33,7 +32,7 @@ const Header = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initial check
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, [location.pathname]);
 
