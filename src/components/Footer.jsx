@@ -22,7 +22,7 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               <li>
-                <FooterLink href="#">Ko‘p beriladigan savollar</FooterLink>
+                <FooterLink href="#">Ko'p beriladigan savollar</FooterLink>
               </li>
               <li>
                 <FooterLink href="#">Ichki turizm</FooterLink>
@@ -132,7 +132,7 @@ const Footer = () => {
 const FooterLink = ({ href, children }) => (
   <a
     href={href}
-    className="text-slate-400 hover:text-white transition-colors block text-sm"
+    className="text-slate-400 hover:text-white transition-colors block text-sm "
   >
     {children}
   </a>
