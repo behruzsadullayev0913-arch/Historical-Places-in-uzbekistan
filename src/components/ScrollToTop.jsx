@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -14,7 +15,7 @@ export default function ScrollToTop() {
       if (element) {
         // Use a small timeout to ensure the element is rendered
         setTimeout(() => {
-          element.scrollIntoView({ behavior: "auto" });
+          element.scrollIntoView({ behavior: "smooth" });
         }, 100);
         return;
       }

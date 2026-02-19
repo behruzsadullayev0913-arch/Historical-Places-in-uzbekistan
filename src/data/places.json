@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Registon maydoni",
     "location": "Samarqand",
-    "period": "XV-XVII asrlar",
+    "period": "15-17 asrlar",
     "region": "Samarqand",
     "short_description": "Sharq me'morchiligining durdonasi.",
     "full_description": "Registon — Samarqandning yuragi va Sharq gavhari. Fors tilidan 'qumli joy' deb tarjima qilinuvchi ushbu maydon, Amir Temur davrida shahar markazi qurilgan.",
@@ -20,7 +20,7 @@
     "id": 3,
     "name": "Ichan Qala",
     "location": "Xiva",
-    "period": "XVIII-XIX asrlar",
+    "period": "18-19 asrlar",
     "region": "Xorazm",
     "short_description": "Ochiq osmon ostidagi muzey-shahar.",
     "full_description": "Ichan Qala Xiva shahrining ichki qismi bo'lib, baland devorlar bilan o'ralgan. Bu yerda 50 dan ortiq tarixiy obidalar saqlanib qolgan.",
@@ -37,24 +37,24 @@
     "id": 2,
     "name": "Ark qal'asi",
     "location": "Buxoro",
-    "period": "V-XX asrlar",
+    "period": "5-20 asrlar",
     "region": "Buxoro",
     "short_description": "Buxoro amirlarining qadimiy qarorgohi.",
     "full_description": "Ark — Buxorodagi eng qadimgi arxeologik yodgorlikdir. Bu ulkan qal'a ichida butun bir shahar joylashgan bo'lib, u yerda amir saroyi, zarbxona va masjidlar bo'lgan.",
-    "main_image": "../assets/images/ark qalasi.jpg",
+    "main_image": "../assets/images/unnamed (1).png",
     "gallery": [
       "../assets/images/ark qalasi galareya (1).jpg",
       "../assets/images/ark qalasi galareya (2).jpg"
     ],
     "category": "Qal'a",
-    "key": "Buxoroning_Ark_qalʼasi"
+    "key": "Buxoroning_Ark_qal'asi"
   },
 
   {
     "id": 4,
     "name": "Fayoztepa majmuasi",
     "location": "Termiz",
-    "period": "I-III asrlar",
+    "period": "1-3 asrlar",
     "region": "Surxondaryo",
     "short_description": "Qadimgi Kushonlar davriga oid Budda ibodatxonasi va monastiri.",
     "full_description": "Fayoztepa — Termiz shahri yaqinidagi qadimiy yodgorlik. Bu yerda qadimgi devoriy rasmlar va haykallar topilgan bo'lib, u Buyuk Ipak yo'lidagi madaniyatlar chorrahasini anglatadi.",

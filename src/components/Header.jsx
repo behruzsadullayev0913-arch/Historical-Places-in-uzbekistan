@@ -44,7 +44,13 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-md shadow-md py-3" : isMenuOpen ? "bg-slate-900/60 backdrop-blur-xl py-5" : "bg-transparent py-5"}`}
+      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-white/90 backdrop-blur-md shadow-md py-3"
+          : isMenuOpen
+            ? "bg-slate-900/60 backdrop-blur-xl py-5"
+            : "bg-gradient-to-b from-black/50 via-black/20 to-transparent py-5"
+      }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
@@ -53,7 +59,7 @@ const Header = () => {
             className="flex items-center gap-2 group"
             onClick={() => {
               localStorage.removeItem("activeSection");
-              window.scrollTo(0, 0);
+              window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
             <img
@@ -63,36 +69,57 @@ const Header = () => {
             />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-8 ">
             <NavLink
               to="/"
               scrolled={scrolled}
               isActive={isCurrentActive("")}
               onClick={() => {
                 localStorage.removeItem("activeSection");
-                window.scrollTo(0, 0);
+                window.scrollTo({ top: 0, behavior: "smooth" });
               }}
             >
               Bosh sahifa
             </NavLink>
+
             <a
               href="/#places"
               onClick={() => localStorage.setItem("activeSection", "#places")}
-              className={`font-medium transition-colors hover:text-primary-600 ${isCurrentActive("#places") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
+              className={`font-medium transition-colors hover:text-primary-600 ${
+                isCurrentActive("#places")
+                  ? "text-primary-500 font-bold"
+                  : scrolled
+                    ? "text-slate-600"
+                    : "text-white drop-shadow-md"
+              }`}
             >
               Joylar
             </a>
+
             <a
               href="#about"
               onClick={() => localStorage.setItem("activeSection", "#about")}
-              className={`font-medium transition-colors hover:text-primary-600 ${isCurrentActive("#about") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
+              className={`font-medium transition-colors hover:text-primary-600 ${
+                isCurrentActive("#about")
+                  ? "text-primary-500 font-bold"
+                  : scrolled
+                    ? "text-slate-600"
+                    : "text-white drop-shadow-md"
+              }`}
             >
               Biz haqimizda
             </a>
+
             <a
               href="#call"
               onClick={() => localStorage.setItem("activeSection", "#call")}
-              className={`font-medium transition-colors hover:text-primary-600 ${isCurrentActive("#call") ? "text-primary-500 font-bold" : scrolled ? "text-slate-600" : "text-slate-200"}`}
+              className={`font-medium transition-colors hover:text-primary-600 ${
+                isCurrentActive("#call")
+                  ? "text-primary-500 font-bold"
+                  : scrolled
+                    ? "text-slate-600"
+                    : "text-white drop-shadow-md"
+              }`}
             >
               Aloqa
             </a>
@@ -137,7 +164,7 @@ const Header = () => {
             onClick={() => {
               setIsMenuOpen(false);
               localStorage.removeItem("activeSection");
-              window.scrollTo(0, 0);
+              window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
             Bosh sahifa
@@ -203,7 +230,7 @@ const NavLink = ({ to, children, scrolled, onClick, isActive }) => (
         ? "text-primary-500 font-bold"
         : scrolled
           ? "text-slate-600"
-          : "text-slate-200"
+          : "text-white drop-shadow-md"
     }`}
   >
     {children}
