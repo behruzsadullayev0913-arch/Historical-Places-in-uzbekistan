@@ -1,21 +1,25 @@
 import React from "react";
+// Ikonkalarni ishlatish uchun kerakli kutubxonalarni chaqiramiz
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
   faInstagram,
   faTelegramPlane,
   faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+} from "@fortawesome/free-brands-svg-icons"; // Ijtimoiy tarmoq piktogrammalari
 import {
   faMapMarkerAlt,
   faArrowUpRightFromSquare,
-} from "@fortawesome/free-solid-svg-icons";
+} from "@fortawesome/free-solid-svg-icons"; // Manzil va yuqoriga chiqish piktogrammalari
 
 const Footer = () => {
   return (
+    // Footer asosi: rangi to'q ko'k (slate-900), matni kulrang va tepadan masofa berilgan
     <footer className="bg-slate-900 text-slate-300 pt-16 pb-8" id="call">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Footer-ning asosiy to'rt ustunli qismi */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+          {/* 1-Ustun: Sayyohlar uchun menyu */}
           <div>
             <h3 className="text-xl font-serif text-white mb-6 border-b border-slate-700 pb-2 inline-block">
               Sayyohlar uchun
@@ -39,6 +43,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* 2-Ustun: Agentliklar uchun menyu */}
           <div>
             <h3 className="text-xl font-serif text-white mb-6 border-b border-slate-700 pb-2 inline-block">
               Agentliklarga
@@ -59,6 +64,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* 3-Ustun: Umumiy ma'lumotlar */}
           <div>
             <h3 className="text-xl font-serif text-white mb-6 border-b border-slate-700 pb-2 inline-block">
               Ma'lumotlar
@@ -79,11 +85,13 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* 4-Ustun: Aloqa ma'lumotlari va Ijtimoiy tarmoqlar */}
           <div>
             <h3 className="text-xl font-serif text-white mb-6 border-b border-slate-700 pb-2 inline-block">
               Aloqa
             </h3>
             <div className="space-y-4">
+              {/* Telefon raqami va ish vaqti */}
               <div>
                 <p className="text-2xl font-bold text-white tracking-wide">
                   +998 12 345 67
@@ -93,6 +101,7 @@ const Footer = () => {
                 </p>
               </div>
 
+              {/* Email manzil */}
               <div>
                 <p className="text-primary-400 font-medium">
                   info@nationalprcentre.com
@@ -100,6 +109,7 @@ const Footer = () => {
                 <p className="text-xs text-slate-500">Har qanday savol uchun</p>
               </div>
 
+              {/* Manzil (Lokatsiya) */}
               <div className="flex items-start gap-3 text-sm">
                 <FontAwesomeIcon
                   icon={faMapMarkerAlt}
@@ -109,6 +119,7 @@ const Footer = () => {
               </div>
             </div>
 
+            {/* Ijtimoiy tarmoq piktogrammalari (Facebook, Instagram, va h.k.) */}
             <div className="mt-8 flex gap-3">
               <SocialIcon icon={faFacebookF} />
               <SocialIcon icon={faInstagram} />
@@ -118,8 +129,11 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Footer pastki qismi: Mualliflik huquqi va Yuqoriga chiqish tugmasi */}
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <p>&copy; 2026 Historical Places. Barcha huquqlar himoyalangan.</p>
+
+          {/* Sayohatni tepasiga qaytaruvchi sariq tugma */}
           <div className="mt-4 md:mt-0 bg-yellow-500 text-slate-900 w-10 h-10 flex items-center justify-center rounded-full hover:bg-yellow-400 transition-colors cursor-pointer">
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </div>
@@ -129,6 +143,7 @@ const Footer = () => {
   );
 };
 
+// Takrorlanuvchi linklar uchun kichik komponent
 const FooterLink = ({ href, children }) => (
   <a
     href={href}
@@ -138,6 +153,7 @@ const FooterLink = ({ href, children }) => (
   </a>
 );
 
+// Ijtimoiy tarmoq doirachalari uchun kichik komponent
 const SocialIcon = ({ icon }) => (
   <a
     href="#"

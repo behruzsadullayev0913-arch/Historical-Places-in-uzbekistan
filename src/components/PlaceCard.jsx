@@ -1,43 +1,56 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// 'place' obyekti orqali ma'lumotlarni qabul qiluvchi kartochka komponenti
 const PlaceCard = ({ place }) => {
   return (
+    // Kartochka asosi: oq fon, burchaklari yumaloq va sichqoncha ustiga kelganda tepaga ko'tariladi (-translate-y-2)
     <div className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col h-full border border-slate-100 hover:-translate-y-2">
+      {/* Rasm qismi */}
       <div className="relative h-64 overflow-hidden">
         <img
           src={place.main_image}
           alt={place.name}
+          // Rasm ustiga kelganda ozgina kattalashadi (scale-110)
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          // Agar rasm yuklanmasa, xatolikni ushlab qolib "Rasm yuklanmadi" yozuvini ko'rsatadi
           onError={(e) => {
             e.target.style.display = "none";
             e.target.nextSibling.style.display = "flex";
           }}
         />
+        {/* Rasm yuklanmaganda chiqadigan zahira blok */}
         <div className="hidden absolute inset-0 items-center justify-center bg-gray-100 text-gray-400 text-sm">
           Rasm yuklanmadi
         </div>
 
+        {/* Rasm ustidagi qorong'u qatlam (hover bo'lganda ko'rinadi) */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
+        {/* Kategoriya belgisi (masalan: Muzey, Masjid) */}
         <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-slate-800 shadow-sm">
           {place.category}
         </div>
       </div>
 
+      {/* Matnli ma'lumotlar qismi */}
       <div className="p-6 flex-grow flex flex-col">
         <div className="mb-4">
+          {/* Hudud nomi (masalan: Samarqand) */}
           <span className="text-primary-600 text-sm font-semibold tracking-wider uppercase">
             {place.region}
           </span>
+          {/* Joy nomi */}
           <h3 className="text-2xl font-bold text-slate-800 mt-2 mb-3 group-hover:text-primary-700 transition-colors line-clamp-1">
             {place.name}
           </h3>
+          {/* Qisqa ta'rif (line-clamp-3 matnni 3 qatorda cheklaydi) */}
           <p className="text-slate-600 text-sm leading-relaxed line-clamp-3">
             {place.short_description}
           </p>
         </div>
 
+        {/* Batafsil sahifasiga o'tish tugmasi */}
         <Link
           to={`/place/${place.id}`}
           className="mt-auto w-full py-3 bg-slate-50 hover:bg-primary-600 text-slate-700 hover:text-white font-semibold rounded-xl transition-all duration-300 text-center border border-slate-200 hover:border-transparent"
