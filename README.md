@@ -69,10 +69,8 @@ Loyihani o'zingizga nusxalab olish uchun quyidagi buyruqlardan foydalaning:
 ```
 
 ✍️ Muallif va Aloqa
-👤 Ism: Sizning Ismingiz
+👤 Ism: Sa'dullayev Behruz
 
-📱 Telegram: @username
+📱 Telegram: @Narco_oo9
 
-💼 LinkedIn: linkedin.com/in/username
-
-📧 Email: sizningemail@example.com
+📧 Email:behruzsadullayev0913@gmail.com
