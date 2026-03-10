@@ -70,9 +70,9 @@ const Header = () => {
             }}
           >
             <img
-              src="/assets/images/logo-sximo_1.png"
+              src="/assets/images/13579938461643414727-removebg-preview.png"
               alt="Uzbekistan Travel"
-              className="h-auto md:h-12 w-100 object-container transition-transform duration-300 group-hover:scale-105"
+              className="h-auto md:h-12 w-200 object-container transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 

@@ -43,12 +43,8 @@ const Places = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900 to-transparent"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <h1 className="text-white text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">
-            O'zbekistonning{" "}
-            <span className="text-primary-400">Tarixiy Joylari</span>
+            <span className="text-primary-400"></span>
           </h1>
-          <p className="text-slate-300 text-lg max-w-2xl">
-            Mamlakatimizning boy tarixi va madaniy merosi bilan tanishing.
-          </p>
         </div>
       </div>
 
