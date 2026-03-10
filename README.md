@@ -83,6 +83,7 @@ historical-places/
 ```
 
 ✍️ Muallif va Aloqa
+
 👤 Ism: Sa'dullayev Behruz
 
 📱 Telegram: Hali yo'q
