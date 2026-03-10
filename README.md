@@ -55,17 +55,31 @@ Loyihani o'zingizga nusxalab olish uchun quyidagi buyruqlardan foydalaning:
 ### 📁 **Loyiha Strukturasi**
 
 ```bash
-├── public/assets/      # Barcha tarixiy obidalar rasmlari
-├── src/
-│   ├── components/     # Header, Footer, PlaceCard va boshqalar
-│   ├── data/           # places.json (Ma'lumotlar bazasi)
-│   ├── pages/          # Home, Places, PlaceDetail sahifalari
-│   ├── App.jsx         # Asosiy router va komponent
-│   └── main.jsx        # Loyihaning kirish nuqtasi
-├── index.html          # Asosiy HTML fayl
-├── tailwind.config.js  # Dizayn sozlamalari
-├── vite.config.js      # Vite konfiguratsiyasi
-└── package.json        # Kutubxonalar ro'yxati
+historical-places/
+├── 📁 public/
+│   └── 📁 assets/
+│       └── 📁 images/           # Barcha tarixiy obidalar rasmlari
+├── 📁 src/
+│   ├── 📁 components/           # Qayta ishlatiladigan kichik qismlar
+│   │   ├── 📄 Header.jsx        # Sayt menyusi
+│   │   ├── 📄 Footer.jsx        # Pastki qism
+│   │   ├── 📄 Layout.jsx        # Umumiy sahifa ko'rinishi (wrapper)
+│   │   ├── 📄 PlaceCard.jsx     # Obidalar uchun kartochka
+│   │   ├── 📄 ScrollObserver.jsx# Scroll effektlari uchun
+│   │   └── 📄 ScrollToTop.jsx   # Sahifani yuqoriga qaytarish
+│   ├── 📁 data/
+│   │   └── 📄 places.json       # Barcha obidalar haqidagi ma'lumotlar (JSON formatda)
+│   ├── 📁 pages/                # Alohida sahifalar
+│   │   ├── 📄 Home.jsx          # Bosh sahifa
+│   │   ├── 📄 Places.jsx        # Barcha joylar ro'yxati sahifasi
+│   │   └── 📄 PlaceDetail.jsx   # Bitta joy haqida batafsil ma'lumot sahifasi
+│   ├── 📄 App.jsx               # Asosiy router va sahifalar ulanadigan joy
+│   ├── 📄 main.jsx              # React-ni DOM-ga ulaydigan asosiy fayl
+│   ├── 📄 App.css               # Global uslublar
+│   └── 📄 index.css             # Tailwind CSS ulanishi
+├── 📄 tailwind.config.js        # Tailwind sozlamalari
+├── 📄 vite.config.js            # Vite loyiha sozlamalari
+└── 📄 package.json              # Kutubxonalar va scriptlar ro'yxati
 ```
 
 ✍️ Muallif va Aloqa
