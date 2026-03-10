@@ -85,6 +85,6 @@ historical-places/
 ✍️ Muallif va Aloqa
 👤 Ism: Sa'dullayev Behruz
 
-📱 Telegram: @Narco_oo9
+📱 Telegram: Hali yo'q
 
-📧 Email:behruzsadullayev0913@gmail.com
+📧 Email: behruzsadullayev0913@gmail.com
