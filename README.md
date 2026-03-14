@@ -82,7 +82,7 @@ historical-places/
 └── 📄 package.json  # Kutubxonalar va scriptlar ro'yxati
 ```
 
-👤 Ism: Sa'dullayev Behruz
+👤 Ism Familya: Sa'dullayev Behruz
 
 📱 Telegram: Hali yo'q
 
