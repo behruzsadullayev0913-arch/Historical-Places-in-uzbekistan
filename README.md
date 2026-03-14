@@ -82,8 +82,6 @@ historical-places/
 └── 📄 package.json  # Kutubxonalar va scriptlar ro'yxati
 ```
 
-✍️ Muallif va Aloqa
-
 👤 Ism: Sa'dullayev Behruz
 
 📱 Telegram: Hali yo'q
