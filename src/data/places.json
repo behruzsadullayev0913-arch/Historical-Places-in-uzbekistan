@@ -1,0 +1,694 @@
+[
+  {
+    "id": 1,
+    "name": "Registon maydoni",
+    "location": "Samarqand",
+    "period": "15-17 asrlar",
+    "century": "15-17",
+    "region": "Samarqand",
+    "short_description": "Uch ulkan madrasadan iborat ansambl.",
+    "description": "Ulug'bek, Sherdor va Tillakori madrasalarini o'z ichiga olgan jahon tamadduni durdonasi.",
+    "info": [
+      "15-17 asrlar davomida Samarqandning ilm-fan markazi bo'ldi.",
+      "Tarixiy ansambl UNESCO merosi ro'yxatiga kiritilgan.",
+      "Har yili millionlab sayyohlar bu joyga tashrif buyuradi."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg",
+      "/assets/images/Registon(2).png"
+    ],
+    "category": "Me'morchilik",
+    "key": "registan",
+    "rating": 4.9
+  },
+  {
+    "id": 2,
+    "name": "Shohi Zinda",
+    "location": "Samarqand",
+    "period": "9-19 asrlar",
+    "century": "9-19",
+    "region": "Samarqand",
+    "short_description": "Moviy gumbazlar va maqbaralar ko'chasi.",
+    "description": "Qusam ibn Abbos maqbarasi atrofida shakllangan noyob tarixiy yo'lak.",
+    "info": [
+      "Shohi Zinda maqbaralari asosan 11-15 asrlarga tegishlidir.",
+      "Ko'plab tarixiy gumbazlari va bezakli maqbaralari mashhur.",
+      "Samarqandning eng muqaddas ziyoratgohlaridan biridir."
+    ],
+    "image": "/assets/images/shohi_zinda.jpg",
+    "gallery": [
+      "/assets/images/shohi_zinda_gal(1).jpg",
+      "/assets/images/shohi_zinda_gal(2).jpg"
+    ],
+    "category": "Ziyoratgoh",
+    "key": "shahizinda",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Go'ri Amir",
+    "location": "Samarqand",
+    "period": "1404-yil",
+    "century": "15",
+    "region": "Samarqand",
+    "short_description": "Amir Temurning mahobatli xilxonasi.",
+    "description": "Sohibqiron va uning avlodlari mangu qo'nim topgan moviy gumbazli obida.",
+    "info": [
+      "G'ori Amir maqbarasi Temuriylar saltanatining muqaddas maskanidir.",
+      "Unda Temur va uning oilasi uchun qurilgan shon-sharaf makoni mavjud.",
+      "Binoning arxitekturasi O'rta Osiyo san'atining eng yorqin durdonalaridan hisoblanadi."
+    ],
+    "image": "/assets/images/guri_amir.jpg",
+    "gallery": [
+      "/assets/images/guri_amir_gal(1).jpg",
+      "/assets/images/guri_amir_gal(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "guramir",
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "name": "Bibi-Xonim masjidi",
+    "location": "Samarqand",
+    "period": "1399-yil",
+    "century": "14",
+    "region": "Samarqand",
+    "short_description": "O'rta asrlarning eng yirik masjidi.",
+    "description": "Amir Temur tomonidan suyukli ayoli sharafiga qurilgan ulkan bino.",
+    "info": [
+      "Bibi-Xonim masjidi o'z davrining eng yirik madrasa va masjid inshootlaridan biridir.",
+      "Qadimiy minoralar va gumbazlar davrining noyob me'morchilik namunasi.",
+      "Bu joy 14-asrning oxirida barpo etilgan va bugungi kunda ham tarixiy ahamiyatga ega."
+    ],
+    "image": "/assets/images/hastimom.jpg",
+    "gallery": [
+      "/assets/images/hastimom_gal(1).jpg",
+      "/assets/images/hastimom_gal(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "bibikhonim",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "name": "Ulug'bek rasadxonasi",
+    "location": "Samarqand",
+    "period": "1424-yil",
+    "century": "15",
+    "region": "Samarqand",
+    "short_description": "O'rta asrlar astronomiya markazi.",
+    "description": "Mirzo Ulug'bek tomonidan koinot sirlarini o'rganish uchun barpo etilgan.",
+    "info": [
+      "Ulug'bek rasadxonasi astronomiya tarixidagi muhim markaz bo'lib qoldi.",
+      "Bu yerda 15-asrda aniq astronomik kuzatuvlar o'tkazilgan.",
+      "Sayyohlar uchun ilmiy meros va arxitektura namunasi sifatida mashhur."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Ilm-fan",
+    "key": "ulugbek_obs",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Hazrati Xizr masjidi",
+    "location": "Samarqand",
+    "period": "19-asr",
+    "century": "19",
+    "region": "Samarqand",
+    "short_description": "Samarqandning eng ko'rkam masjidlaridan biri.",
+    "description": "Afrosiyob tepaligi yonida joylashgan tarixiy va muqaddas maskan.",
+    "info": [
+      "Hazrati Xizr masjidi Samarqanddagi qadimiy ziyoratgohlardan biridir.",
+      "17-18-asrlar me'morchiligi va dekorativ detallarini o'zida mujassam etgan.",
+      "U yerda tinchlik va ibodat uchun ko'plab sayohatchilar to'planadi."
+    ],
+    "image": "/assets/images/poyi_kalon.jpg",
+    "gallery": [
+      "/assets/images/kalon_gal(1).jpg",
+      "/assets/images/kalon_gal(2).jpg"
+    ],
+    "category": "Ziyoratgoh",
+    "key": "h_xizr",
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "name": "Imom al-Buxoriy majmuasi",
+    "location": "Payariq tumani",
+    "period": "9-asr / 2024",
+    "century": "9",
+    "region": "Samarqand",
+    "short_description": "Islom olamining muqaddas manzili.",
+    "description": "Buyuk muhaddis Muhammad ibn Ismoil al-Buxoriy yodgorlik majmuasi.",
+    "info": [
+      "Imom al-Buxoriy majmuasi Islom olamining eng muqaddas joylaridan biridir.",
+      "Bu yerda 900 yildan ortiq tarixga ega diniy va madaniy meros saqlanadi.",
+      "Majmua ichidagi yo'laklar va duvonalari o'ziga xos muhit yaratadi."
+    ],
+    "image": "/assets/images/xoja_ahror.jpg",
+    "gallery": [
+      "/assets/images/tashkent_mosque_gal(1).jpg",
+      "/assets/images/tashkent_mosque_gal(2).jpg"
+    ],
+    "category": "Ziyoratgoh",
+    "key": "bukhari",
+    "rating": 4.8
+  },
+  {
+    "id": 8,
+    "name": "Minorai Kalon",
+    "location": "Buxoro",
+    "period": "1127-yil",
+    "century": "12",
+    "region": "Buxoro",
+    "short_description": "Buxoro shahrining osmono'par ramzi.",
+    "description": "Qoraxoniylar davrida qurilgan, 46 metrlik ulkan minora.",
+    "info": [
+      "Minorai Kalon Buxoro shahrining eng mashhur ramzlaridan biridir.",
+      "U qismdan shahar panoramasi va tarixiy madrasalarni ko'rish mumkin.",
+      "Minoraning balandligi va naqshlari me'morchilik durdonasi hisoblanadi."
+    ],
+    "image": "/assets/images/poyi_kalon.jpg",
+    "gallery": [
+      "/assets/images/kalon_gal(1).jpg",
+      "/assets/images/kalon_gal(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "kalyan",
+    "rating": 4.9
+  },
+  {
+    "id": 9,
+    "name": "Ark qal'asi",
+    "location": "Buxoro",
+    "period": "M.A. 4-asr",
+    "century": "4",
+    "region": "Buxoro",
+    "short_description": "Qadimiy davlat boshqaruvi markazi.",
+    "description": "Buxoro amirlarining qishki qarorgohi bo'lgan mahobatli qal'a.",
+    "info": [
+      "Ark qal'asi qadimiy Buxoro hokimiyatining markazi bo'lgan.",
+      "Unda saroy, qo'riqxona va tarixiy yodgorliklar mavjud.",
+      "Qal'a ichidagi muzeylar sayyohlar uchun ochiq va tarixiy eksponatlar taqdim etadi."
+    ],
+    "image": "/assets/images/Ark qalasi.png",
+    "gallery": [
+      "/assets/images/ark qalasi galareya (1).jpg",
+      "/assets/images/ark qalasi galareya (2).jpg"
+    ],
+    "category": "Qal'a",
+    "key": "ark",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Ismoil Somoniy maqbarasi",
+    "location": "Buxoro",
+    "period": "9-10 asrlar",
+    "century": "9-10",
+    "region": "Buxoro",
+    "short_description": "O'rta Osiyo g'ishtli me'morchiligi durdonasi.",
+    "description": "Somoniylar sulolasi asoschisi mangu qo'nim topgan bino.",
+    "info": [
+      "Ismoil Somoniy maqbarasi Buxorodagi eng qadimiy tarixiy yodgorliklardan biridir.",
+      "U O'rta Osiyodagi go'zal koshin va g'isht ishlari bilan mashhur.",
+      "Arxitekturasi va fasadi islomiy san'atning noyob namunasi hisoblanadi."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "samanid",
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "name": "Labi Hovuz",
+    "location": "Buxoro",
+    "period": "16-17 asrlar",
+    "century": "16-17",
+    "region": "Buxoro",
+    "short_description": "Shaharning eng gavjum tarixiy maskani.",
+    "description": "Hovuz atrofidagi Nodir Devonbegi va Ko'kaldosh madrasalari ansambli.",
+    "info": [
+      "Labi Hovuz kompleksi Buxoroning tarixiy markazidir.",
+      "Hovuz atrofida qadimiy madrasalar va tijorat domlari joylashgan.",
+      "Bu joy sayyohlarning sevimli turar joyi va tarixiy o'rganish maskanidir."
+    ],
+    "image": "/assets/images/poyi_kalon.jpg",
+    "gallery": [
+      "/assets/images/kalon_gal(1).jpg",
+      "/assets/images/kalon_gal(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "labihauz",
+    "rating": 4.8
+  },
+  {
+    "id": 12,
+    "name": "Bahouddin Naqshband",
+    "location": "Kogon tumani",
+    "period": "14-asr",
+    "century": "14",
+    "region": "Buxoro",
+    "short_description": "Naqshbandiya tariqatining markazi.",
+    "description": "Islom olamidagi eng yirik ziyoratgohlardan biri.",
+    "info": [
+      "Bahouddin Naqshbandi sufi shayxining ziyoratgohi juda mashhudir.",
+      "Uning tasavvuf ta'limotlari dunyoning ko'p joylarida amal qilinmoqda.",
+      "Kompleks Islomiy arxitektura va ziyorat markazidir."
+    ],
+    "image": "/assets/images/xoja_ahror.jpg",
+    "gallery": [
+      "/assets/images/tashkent_mosque_gal(1).jpg",
+      "/assets/images/tashkent_mosque_gal(2).jpg"
+    ],
+    "category": "Ziyoratgoh",
+    "key": "naqshband",
+    "rating": 4.9
+  },
+  {
+    "id": 13,
+    "name": "Sitorai Mohi-Xosa",
+    "location": "Buxoro",
+    "period": "19-20 asrlar",
+    "century": "19-20",
+    "region": "Buxoro",
+    "short_description": "Amirning yozgi saroyi.",
+    "description": "Sharq va G'arb uslubi uyg'unlashgan noyob saroy majmuasi.",
+    "info": [
+      "Sitorai Mohi-Xosa Buxoro amirining yozgi turar joyi bo'lgan.",
+      "Saroy binosi sho'rli o'ymakor ishlari va naqshlari bilan ajoyib.",
+      "19-20 asrlar arxitekturasining noyob namunasi sifatida mashhur."
+    ],
+    "image": "/assets/images/sitorai_mohi_xosa.jpg",
+    "gallery": [
+      "/assets/images/sitorai_gal(1).jpg",
+      "/assets/images/sitorai_gal(2).jpg"
+    ],
+    "category": "Saray",
+    "key": "mohikosa",
+    "rating": 4.7
+  },
+  {
+    "id": 14,
+    "name": "Chor Bakr",
+    "location": "Buxoro tumani",
+    "period": "16-asr",
+    "century": "16",
+    "region": "Buxoro",
+    "short_description": "O'liklar shahri deb ataluvchi nekropol.",
+    "description": "Jo'ybor shayxlari dafn etilgan mahobatli ziyoratgoh.",
+    "info": [
+      "Chor Bakr kompleksi 4 ta qabr topi bilan mashhuridir.",
+      "Bu yerga bosqinchi jo'ybor shayxlarining go'ri joylashgan.",
+      "O'liklar shahri deb ataluvchi noyob ziyoratgoh jadvalti o'z tarixi asrlar davomida saqlanib keldi."
+    ],
+    "image": "/assets/images/chor_bakr.jpg",
+    "gallery": [
+      "/assets/images/chor_bakr_gal(1).jpg",
+      "/assets/images/chor_bakr_gal(2).jpg"
+    ],
+    "category": "Ziyoratgoh",
+    "key": "chorbakr",
+    "rating": 4.6
+  },
+  {
+    "id": 15,
+    "name": "Ichan Qala",
+    "location": "Xiva",
+    "period": "18-19 asrlar",
+    "century": "18-19",
+    "region": "Xorazm",
+    "short_description": "Ochiq osmon ostidagi muzey-shahar.",
+    "description": "YuNESKO merosi, baland devorlar bilan o'ralgan qadimiy shahar.",
+    "info": [
+      "Ichan Qala Xivaning sho'rli qadimiy shahrining markazi hisoblanadi.",
+      "Baland devorlar, masjidlar va madrasalaridan iborat kompleks.",
+      "UNESCO Jahon merosi ro'yxatida kiritilgan to'rtta joydan biridir."
+    ],
+    "image": "/assets/images/Ichan qala.jpg",
+    "gallery": [
+      "/assets/images/ichan qala galareya (1).jpg",
+      "/assets/images/ichan qala galareya (2).jpg",
+      "/assets/images/Ichan qala (2).jpg"
+    ],
+    "category": "Muzey-shahar",
+    "key": "ichanqala",
+    "rating": 4.9
+  },
+  {
+    "id": 16,
+    "name": "Kalta Minor",
+    "location": "Xiva",
+    "period": "1855-yil",
+    "century": "19",
+    "region": "Xorazm",
+    "short_description": "Xivaning ramziga aylangan moviy minora.",
+    "description": "Tugallanmay qolgan, lekin eng chiroyli koshinlar bilan bezatilgan minora.",
+    "info": [
+      "Kalta Minor Xivaning ramziga aylanib ketgan moviy minora.",
+      "Uning qisqaligiga qaramay, koshin naqshlari eng go'zal.",
+      "19-asrning taxsil me'morchilik namunasi sifatida qo'llanadi."
+    ],
+    "image": "/assets/images/poyi_kalon.jpg",
+    "gallery": [
+      "/assets/images/kalon_gal(1).jpg",
+      "/assets/images/kalon_gal(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "kaltaminor",
+    "rating": 4.8
+  },
+  {
+    "id": 17,
+    "name": "Toshhovli saroyi",
+    "location": "Xiva",
+    "period": "1830-yil",
+    "century": "19",
+    "region": "Xorazm",
+    "short_description": "Xiva xonlarining dabdabali saroyi.",
+    "description": "Koshinli devorlar va o'ymakor ustunlarga boy tarixiy bino.",
+    "info": [
+      "Toshhovli saroy Xiva xonlarining dabdabali maskani bo'lgan.",
+      "Binoda sho'rli koshin bezaklari va o'ymakor ishlari mavjud.",
+      "O'zbekiston turizm markazlaridan eng mashhurlari yer-labida."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Saray",
+    "key": "toshhovli",
+    "rating": 4.7
+  },
+  {
+    "id": 18,
+    "name": "Hazrati Imom (Hastimom)",
+    "location": "Toshkent",
+    "period": "16-20 asrlar",
+    "century": "16-20",
+    "region": "Toshkent",
+    "short_description": "Toshkentning bosh diniy markazi.",
+    "description": "Usmon Mushafi saqlanadigan muqaddas va tarixiy majmua.",
+    "info": [
+      "Hazrati Imom Toshkentning eng muqaddas ziyoratgohi hisoblanadi.",
+      "Kompleks Usmon Mushafi saqlab qo'ygan tarixiy milliy xazinasi.",
+      "Dini va madaniy ahamiyati sababli Islom olamining muhim manzilidir."
+    ],
+    "image": "/assets/images/hastimom.jpg",
+    "gallery": [
+      "/assets/images/hastimom_gal(1).jpg",
+      "/assets/images/hastimom_gal(2).jpg"
+    ],
+    "category": "Ziyoratgoh",
+    "key": "hastimom",
+    "rating": 4.8
+  },
+  {
+    "id": 19,
+    "name": "Kukeldosh madrasasi",
+    "location": "Toshkent",
+    "period": "16-asr",
+    "century": "16",
+    "region": "Toshkent",
+    "short_description": "Toshkentning eng yirik va qadimiy madrasasi.",
+    "description": "Chorsu bozori yonida joylashgan tarixiy ilm maskani.",
+    "info": [
+      "Kukeldosh madrasasi Toshkentning eng qadimiy ilm markazi.",
+      "16-asrdan buyon o'qituvchilar va o'quvchilarni o'qitib keldi.",
+      "Madrasaning arxitekturasi O'rta Osiyoning me'morchiligi namunasi."
+    ],
+    "image": "/assets/images/poyi_kalon.jpg",
+    "gallery": [
+      "/assets/images/kalon_gal(1).jpg",
+      "/assets/images/kalon_gal(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "kukeldosh",
+    "rating": 4.5
+  },
+  {
+    "id": 20,
+    "name": "Oqsaroy",
+    "location": "Shahrisabz",
+    "period": "14-asr",
+    "century": "14",
+    "region": "Qashqadaryo",
+    "short_description": "Amir Temurning ulkan saroyi qoldiqlari.",
+    "description": "Sohibqiron barpo etgan eng mahobatli saroy peshtog'i.",
+    "info": [
+      "Oqsaroy Shahrisabzda Amir Temurning yana bir mahobatli saroy eski alanmalaridir.",
+      "14-asrda qurulgan ushbu binoda sho'rli koshin naqshlari mavjuddir.",
+      "Dunyodagi eng qadimiy uslubdagi qasr turlari buning misoli hisoblanadi."
+    ],
+    "image": "/assets/images/oqsaroy.jpg",
+    "gallery": [
+      "/assets/images/oqsaroy_gal(1).jpg",
+      "/assets/images/oqsaroy_gal(2).jpg"
+    ],
+    "category": "Me'morchilik",
+    "key": "oqsaroy",
+    "rating": 4.7
+  },
+  {
+    "id": 21,
+    "name": "Fayoztepa",
+    "location": "Termiz",
+    "period": "1-3 asrlar",
+    "century": "1-3",
+    "region": "Surxondaryo",
+    "short_description": "Budda ibodatxonasi majmuasi.",
+    "description": "Qadimgi Kushonlar davriga oid Budda monastiri.",
+    "info": [
+      "Fayoztepa Budda ibodatxonasi arxeologik joyning eng muhim bölümüdür.",
+      "1-3 asrlarda monastir talaba o'qitgan va dini markazlamalar o'tkazilgan.",
+      "Arxeologik topilmalar O'rta Osiya islomi-öncesi madaniyatini tushuntiradi."
+    ],
+    "image": "/assets/images/fayoztapa.jpg",
+    "gallery": [
+      "/assets/images/fayoztepa galareya (1).jpg",
+      "/assets/images/fayoztepa galareya (2).jpg"
+    ],
+    "category": "Arxeologiya",
+    "key": "fayoztepa",
+    "rating": 4.4
+  },
+  {
+    "id": 22,
+    "name": "Ayaz Qala",
+    "location": "Ellikqal'a",
+    "period": "M.A. 4-2 asrlar",
+    "century": "4-2",
+    "region": "Qoraqalpog'iston",
+    "short_description": "Sahro bag'ridagi mudofaa qal'asi.",
+    "description": "Qadimiy Xorazm mudofaa tizimining eng muhim nuqtasi.",
+    "info": [
+      "Ayaz Qala sahro o'rtasida yabaniy qal'a bo'lib qolgan.",
+      "Qadimiy Xorazm shumoliysining mudofaa sanoatining belgilari sini o'z ichiga olgan.",
+      "Arxeologlar bu joyda xorazm madaniyatining shodliq izlarini aniqlab turadi."
+    ],
+    "image": "/assets/images/ayaz_qala.jpg",
+    "gallery": [
+      "/assets/images/ayaz_gal(1).jpg",
+      "/assets/images/ayaz_gal(2).jpg"
+    ],
+    "category": "Qal'a",
+    "key": "ayazqala",
+    "rating": 4.6
+  },
+  {
+    "id": 23,
+    "name": "Savitskiy muzeyi",
+    "location": "Nukus",
+    "period": "1966-yil",
+    "century": "20",
+    "region": "Qoraqalpog'iston",
+    "short_description": "Dunyoga mashhur san'at muzeyi.",
+    "description": "Rus avangard san'ati durdonalari saqlanadigan noyob maskan.",
+    "info": [
+      "Savitskiy muzeyida dunyoning eng noyob san'at to'plamlaridan biri saqlanadi.",
+      "20-asr avangard san'ati bu muzeyda yagona murakkab halda saqlanib qolgan.",
+      "Nukus shahrining madaniy markazidir va sayyohlarning eng sevimli joyi."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Muzey",
+    "key": "savitsky",
+    "rating": 4.8
+  },
+  {
+    "id": 24,
+    "name": "Xudoyorxon saroyi",
+    "location": "Qo'qon",
+    "period": "1871-yil",
+    "century": "19",
+    "region": "Farg'ona",
+    "short_description": "Qo'qon xonlarining qarorgohi.",
+    "description": "Vodiydagi eng mahobatli va koshinli saroy majmuasi.",
+    "info": [
+      "Xudoyorxon saroyi Qo'qon xonlarining 19-asr qarorgohi bo'lgan.",
+      "Binoning devorlarida tarixiy koshin naqshlari va o'ymakor ishlari qo'llanadi.",
+      "Arxitekturada Sharq uslubining noyob namunasini ko'rish mumkin."
+    ],
+    "image": "/assets/images/Farg'ona shaxri.jpg",
+    "gallery": [
+      "/assets/images/tashkent_mosque_gal(1).jpg",
+      "/assets/images/tashkent_mosque_gal(2).jpg"
+    ],
+    "category": "Saray",
+    "key": "xudoyorxon",
+    "rating": 4.5
+  },
+  {
+    "id": 25,
+    "name": "Zomin milliy bog'i",
+    "location": "Zomin",
+    "period": "Tabiiy",
+    "century": "Tabiiy",
+    "region": "Jizzax",
+    "short_description": "O'zbekistonning Shveytsariyasi.",
+    "description": "Archa o'rmonlari va musaffo havosi bilan mashhur tog'li hudud.",
+    "info": [
+      "Zomin milliy bog'i O'zbekistonning tabiat saqlash maskanidir.",
+      "Tog' havasining toza xusosissti va archa o'rmoni sayyohlarni sog'lom qiladi.",
+      "Bu joyi qish va yozning eng yoqimli voqetlariga ega."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Tabiat",
+    "key": "zomin",
+    "rating": 4.7
+  },
+  {
+    "id": 26,
+    "name": "Sardoba majmuasi",
+    "location": "Sardoba tumani",
+    "period": "16-asr",
+    "century": "16",
+    "region": "Sirdaryo",
+    "short_description": "Qadimgi suv saqlash inshooti.",
+    "description": "Karvon yo'llarida yo'lovchilar uchun suv manbai bo'lgan gumbazli bino.",
+    "info": [
+      "Sardoba majmuasi qadimgi Ipak yo'lda suv tadarruksining belgidir.",
+      "16-asr binosi tabiy behad qilgan ta'siri va gumbazining go'zalligi bilan ajoyib.",
+      "Ipak yo'lining tarixiy markazidir."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Arxeologiya",
+    "key": "sardoba",
+    "rating": 4.3
+  },
+  {
+    "id": 27,
+    "name": "Axsikent",
+    "location": "Namangan",
+    "period": "M.A. 3-asr",
+    "century": "3",
+    "region": "Namangan",
+    "short_description": "Qadimiy Farg'ona poytaxti.",
+    "description": "Sirdaryo bo'yidagi qadimgi shahar qoldiqlari va arxeologik zona.",
+    "info": [
+      "Axsikent qadimgi Farg'onaning eng muhim shaharlaridan biri bo'lgan.",
+      "3-asrda yaratilgan shaharning qoldiqlari bugungi Namangan yaqinida joylashgan.",
+      "Arxeologik qazilmalar qadimiy Farg'ona madaniyatini ochib beradi."
+    ],
+    "image": "/assets/images/Farg'ona shaxri.jpg",
+    "gallery": [
+      "/assets/images/tashkent_mosque_gal(1).jpg",
+      "/assets/images/tashkent_mosque_gal(2).jpg"
+    ],
+    "category": "Arxeologiya",
+    "key": "axsikent",
+    "rating": 4.4
+  },
+  {
+    "id": 28,
+    "name": "Sultan Saodat",
+    "location": "Termiz",
+    "period": "10-17 asrlar",
+    "century": "10-17",
+    "region": "Surxondaryo",
+    "short_description": "Termiz sayyidlarining xilxonasi.",
+    "description": "Mahobatli maqbaralar va xonaqohlardan iborat majmua.",
+    "info": [
+      "Sultan Saodat Termizning eng muqaddas ziyoratgohi hisoblanadi.",
+      "Sayyidlarning maqbaralariga har yili ko'p sayohatchilar tashrif buyuradi.",
+      "Kompleks 10-17 asrlar davomida barpa etilgan tarixiy yodgorlikdur."
+    ],
+    "image": "/assets/images/sulton_saodat.jpg",
+    "gallery": [
+      "/assets/images/sulton_gal(1).jpg",
+      "/assets/images/sulton_gal(2).jpg"
+    ],
+    "category": "Ziyoratgoh",
+    "key": "saodat",
+    "rating": 4.6
+  },
+  {
+    "id": 29,
+    "name": "Chilpiq qal'asi",
+    "location": "Nukus",
+    "period": "1-asr",
+    "century": "1",
+    "region": "Qoraqalpog'iston",
+    "short_description": "Zardushtiylarning 'Sukunat minorasi'.",
+    "description": "Qadimiy marosimlar o'tkaziladigan doira shaklidagi tepalik.",
+    "info": [
+      "Chilpiq qal'asi zardushtiy madaniyatining noyob arxeologik joydir.",
+      "1-asrda qurulgan ushbu yodgorlik qadimiy diniy amaliyotlarning isbotion beradi.",
+      "Nukus yaqinida joylashgan bu joyni arxeologlar chuqur o'rganab turadi."
+    ],
+    "image": "/assets/images/Registon.jpg",
+    "gallery": [
+      "/assets/images/registon-galleya.jpg",
+      "/assets/images/registon-gallareya(2).jpg"
+    ],
+    "category": "Arxeologiya",
+    "key": "chilpiq",
+    "rating": 4.2
+  },
+  {
+    "id": 30,
+    "name": "Mizdaxqon",
+    "location": "Xo'jayli",
+    "period": "M.A. 4-asr",
+    "century": "4",
+    "region": "Qoraqalpog'iston",
+    "short_description": "Sirli arxeologik nekropol.",
+    "description": "G'ayritabiiy afsonalarga boy qadimiy qabriston va majmua.",
+    "info": [
+      "Mizdaxqon qadimgi nekropol bu yerda tarixiy va arxeologik sirdorlar mavjud.",
+      "Qabr tashkiloti qadimiy dafn amaliyotining o'ziga xos xususiyatlarini ko'rsatadi.",
+      "Qoraqalpog'istonning sirli joylaridan biri sifatida tanilgan."
+    ],
+    "image": "/assets/images/mizdaxqon.jpg",
+    "gallery": [
+      "/assets/images/mizdaxqon_gal(1).jpg",
+      "/assets/images/mizdaxqon_gal(2).jpg"
+    ],
+    "category": "Arxeologiya",
+    "key": "mizdaxqon",
+    "rating": 4.5
+  }
+]
